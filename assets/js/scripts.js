@@ -35,9 +35,9 @@ jQuery(document).ready(function() {
         Background slideshow
     */
     $.backstretch([
-                  "assets/img/backgrounds/1.jpg",
-                  "assets/img/backgrounds/1.jpg",
-                  "assets/img/backgrounds/1.jpg"
+                  "assets/img/backgrounds/1.png",
+                  "assets/img/backgrounds/1.png",
+                  "assets/img/backgrounds/1.png"
                 ], {duration: 3000, fade: 750});
     // pause slideshow
     $.backstretch('pause');
