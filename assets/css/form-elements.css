@@ -46,7 +46,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
     margin: 0;
     padding: 0 20px;
     vertical-align: middle;
-    background: #e8643e;
+    background: #b11966;
     border: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
@@ -91,12 +91,12 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .subscribe button:focus, 
 .contact-form button:focus {
 	outline: 0;
-	background: #e8643e;
+	background: #d21e79;
 	color: #fff;
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus {
 	outline: 0;
-	background: #e8643e;
+	background: #d21e79;
 	color: #fff;
 }
