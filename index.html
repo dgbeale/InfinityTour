@@ -90,7 +90,7 @@
 
 								<div class="top-big-link wow fadeInUp">
 
-									<a class="btn btn-link-1 scroll-link" href="#modal-about">Find out more<span><i class="fa fa-heart" style="padding-left:5px;"></i></span></a>
+									<a class="btn btn-link-1 scroll-link" >Find out more<span><i class="fa fa-heart" style="padding-left:5px;"></i></span></a>
 								</div>
 
                             </div>
@@ -215,16 +215,12 @@
 							</div>
 
 						<div class="top-big-link" >
-							<a class="btn btn-link-1 scroll-link" style="margin-top:30px;" href="#modal-about">Find out more <span><i class="fa fa-heart" style="padding-left:5px;"></i></span></a>
+							<a class="btn btn-link-1 scroll-link" style="margin-top:30px;" href="#modal-about" data-toggle="modal" data-target="#modal-about">Find out more <span><i class="fa fa-heart" style="padding-left:5px;"></i></span></a>
 						</div>
 
 							<h3 class="courgette" style="margin-top:60px;"> More locations coming soon! <i class="fa fa-heart" style="padding-left:5px;"></i></h3>
 </div>
 
-						<!--<p>Portugal was born in the North.</p>-->
-						<!--<p>It was Porto and the Northern Region where Portugal began as nation, where the variety of complementary cultures is highly valued.</p>-->
-						<!--<p>Douro River crosses the region. Enters Portugal squeezed between cliffs and Inland Mountains stepping forward across the landscape of the Worlds Heritage!</p>-->
-						<!--<p>With <strong>Porto</strong> as the capital of this region offering an international airport and the charms of a riverside city splendidly bathed by the magnificent Douro River. It offers a variety of beautiful sightseeing trips on board of its traditional boats or private yachts as well as plenty of exquisite mansions or hotels for you to lodge and enjoy the aristocratic tradition of local hospitality showing a perfect alliance of Popular Heritage and Cosmopolitan elegance.</p>-->
 
 
 
@@ -237,6 +233,7 @@
 
 	.porto-image {
 		transition: all .5s ease-in-out;
+		padding-bottom: 30px;
 	}
 	.porto-image:hover {
 		transform: scale(1.1);
@@ -267,9 +264,9 @@
 
 						<p>Infinity is associated to PTS Protected Travel Services, to provide consumers with the highest level of Financial Protection against the failure of both Infinity Tour Operators as well as the suppliers we use. This protection lasts from the point you book your holiday through to the point of your return giving clients the peace of mind to enjoy each and every getaway booked with us, being certain you have 100% Financial Protection.
 
-							For more information please visit: www.protectedtravelservices.com</p>
+							For more information please visit: <a href="ttp://www.protectedtravelservices.com">www.protectedtravelservices.com</a></p>
 
-						<p> Please click here to visit our terms and conditions </p>
+						<p> Please <a href="assets/terms.pdf">click here</a> to visit our terms and conditions.</p>
 
 					</div>
 				</div>
@@ -410,7 +407,7 @@
 			</div>
 		</div>
 
-		<!-- MODAL: WHEREYOGO -->
+		<!-- MODAL: WHEREYOUGO -->
 		<div class="modal fade" id="modal-wyg" tabindex="-1" role="dialog" aria-labelledby="modal-more-features-label" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
@@ -433,8 +430,35 @@
 			</div>
 		</div>
 
+		<!-- MODAL: ABOUT -->
+		<div class="modal fade" id="modal-about" tabindex="-1" role="dialog" aria-labelledby="modal-about-label" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">
+							<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+						</button>
+						<h4 class="modal-title" id="modal-about-label">PORTO INFO AND ALBUM</h4>
+					</div>
+					<div class="modal-body">
 
-        <!-- Javascript -->
+						<p>
+							<p>Portugal was born in the North.</p>
+							<p>It was Porto and the Northern Region where Portugal began as nation, where the variety of complementary cultures is highly valued.</p>
+							<p>Douro River crosses the region. Enters Portugal squeezed between cliffs and Inland Mountains stepping forward across the landscape of the Worlds Heritage!</p>
+							<p>With <strong>Porto</strong> as the capital of this region offering an international airport and the charms of a riverside city splendidly bathed by the magnificent Douro River. It offers a variety of beautiful sightseeing trips on board of its traditional boats or private yachts as well as plenty of exquisite mansions or hotels for you to lodge and enjoy the aristocratic tradition of local hospitality showing a perfect alliance of Popular Heritage and Cosmopolitan elegance.</p>
+
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- Javascript -->
         <script src="assets/js/jquery-1.11.1.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.backstretch.min.js"></script>
